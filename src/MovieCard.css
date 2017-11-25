@@ -1,0 +1,48 @@
+.movie-card {
+  border-radius: 0 !important;
+  display: flex;
+  margin: 10px;
+  width: 100%;
+  max-height: 278px;
+  min-width: 460px;
+}
+.poster {
+  width: 185px;
+  height: 278px;
+}
+.info {
+  flex: 1;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.title {
+  color: steelblue;
+  font-size: 20px;
+}
+.overview {
+  word-wrap: break-word;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  color: #4d4d4d;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px;
+  overflow: hidden;
+  height: 82px;
+}
+.flex-center,
+.release-date {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #666;
+}
+.more-info {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}

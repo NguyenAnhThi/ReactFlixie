@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  min-width: 460px;
 }
-
+.App-content {
+  margin-top: 90px;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -22,7 +25,33 @@
   font-size: large;
 }
 
+.toolbar-left,
+.toolbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  border-radius: 2px;
+  color: dimgray;
+  width: 250px;
+  height: 15px;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+}
+.search-box:focus {
+  outline: none;
+}
+
+h1 {
+  color: steelblue;
+}
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

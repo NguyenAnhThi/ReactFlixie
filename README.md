@@ -1,33 +1,34 @@
-# Project 1 - *Flixie*
+# Project 1 - _Flixie_
 
-**Flixie** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flixie** is a movies app using the
+[The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **16** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User can view a list of movies currently playing in theaters.
-- [ ] User can show/hide details about each movie.
-- [ ] User sees loading state while waiting for the API.
-- [ ] User sees an error message when there is a network error.
-- [ ] User can refresh the movie list.
-- [ ] User can search/filter the movie results via a search bar.
-- [ ] User can use the page on both desktop and mobile viewport sizes.
+* [x] User can view a list of movies currently playing in theaters.
+* [ ] User can show/hide details about each movie.
+* [x] User sees loading state while waiting for the API.
+* [ ] User sees an error message when there is a network error.
+* [x] User can refresh the movie list.
+* [x] User can search/filter the movie results via a search bar.
+* [x] User can use the page on both desktop and mobile viewport sizes.
 
 The following **optional** features are implemented:
 
-- [ ] Toggle between **Now Playing** and **Top Rated** movies.
-- [ ] Sort Movies by rating, popularity, release date.
-- [ ] Animations on open/close details.
-- [ ] Infinite Scrolling.
-- [ ] Movie Poster Lightbox on click
-- [ ] Multiple Layout Options
+* [x] Toggle between **Now Playing** and **Top Rated** movies.
+* [ ] Sort Movies by rating, popularity, release date.
+* [ ] Animations on open/close details.
+* [ ] Infinite Scrolling.
+* [ ] Movie Poster Lightbox on click
+* [ ] Multiple Layout Options
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+* [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
