@@ -21,9 +21,13 @@
 }
 .title {
   color: steelblue;
-  font-size: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
 }
-.overview {
+.overview,
+.dialog-info,
+.details-overview {
   word-wrap: break-word;
   font-size: 0.8em;
   line-height: 1.2em;
@@ -32,6 +36,8 @@
   text-justify: inter-word;
   padding: 10px;
   overflow: hidden;
+}
+.overview {
   height: 82px;
 }
 .flex-center,

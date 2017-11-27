@@ -5,8 +5,6 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  CircularProgress,
-  TextField,
   Button,
   IconButton,
   Paper
@@ -33,7 +31,6 @@ class App extends Component {
   async fetchMovies(page) {
     await this.sleep(1000);
     const url = `${this.state.url}&page=${page}`;
-    console.log(url);
     const results = await fetch(url);
     const data = await results.json();
     return data.results;
@@ -71,11 +68,10 @@ class App extends Component {
   }
 
   async handleSearch(e) {
-    console.log(e.keyCode);
     if (e.keyCode === 13) {
       let query = e.target.value;
       let searchUrl =
-        query == ""
+        query === ""
           ? `https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed`
           : `https://api.themoviedb.org/3/search/movie?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US&query=${
               query
